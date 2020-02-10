@@ -4,6 +4,7 @@ class Dog
   end 
   
   def name = (dog_name)
+    dog_name = dog_name.split
     @name = dog_name
   end
   
